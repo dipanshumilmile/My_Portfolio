@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "predeploy":"npm run build",
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start"
